@@ -1,0 +1,6 @@
+framework module Pods_codepath_1_movie_app {
+  umbrella header "Pods-codepath-1-movie-app-umbrella.h"
+
+  export *
+  module * { export * }
+}
