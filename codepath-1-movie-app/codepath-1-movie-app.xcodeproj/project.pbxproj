@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		102D2F041E48EA79004A2C8F /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 102D2F031E48EA79004A2C8F /* DetailViewController.swift */; };
 		10E874381E4061AD005B324F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10E874371E4061AD005B324F /* AppDelegate.swift */; };
 		10E8743D1E4061AD005B324F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 10E8743B1E4061AD005B324F /* Main.storyboard */; };
 		10E8743F1E4061AD005B324F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 10E8743E1E4061AD005B324F /* Assets.xcassets */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		102D2F031E48EA79004A2C8F /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		10E874341E4061AD005B324F /* codepath-1-movie-app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "codepath-1-movie-app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		10E874371E4061AD005B324F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		10E8743C1E4061AD005B324F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -45,6 +47,7 @@
 		10E8742B1E4061AC005B324F = {
 			isa = PBXGroup;
 			children = (
+				102D2F031E48EA79004A2C8F /* DetailViewController.swift */,
 				10E874361E4061AD005B324F /* codepath-1-movie-app */,
 				10E874351E4061AD005B324F /* Products */,
 				C0934B184C83F4159187C951 /* Pods */,
@@ -233,6 +236,7 @@
 				10E874381E4061AD005B324F /* AppDelegate.swift in Sources */,
 				10E8744A1E4061CB005B324F /* MoviesViewController.swift in Sources */,
 				10E8744C1E40688F005B324F /* MovieCell.swift in Sources */,
+				102D2F041E48EA79004A2C8F /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -396,6 +400,7 @@
 				10E874481E4061AD005B324F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
