@@ -36,10 +36,14 @@ class MoviesViewController: UIViewController, UITableViewDataSource, UITableView
         
         self.searchController.hidesNavigationBarDuringPresentation = false
         self.searchController.dimsBackgroundDuringPresentation = false
-        
+        self.searchController.searchBar.backgroundColor = UIColor.black
+        self.searchController.searchBar.barTintColor = UIColor.black
+        self.searchController.searchBar.tintColor = UIColor.white
         
         
         self.navigationItem.titleView = searchController.searchBar
+        self.navigationController?.navigationBar.barTintColor = UIColor.black
+        self.navigationController?.navigationBar.tintColor = UIColor.white
         if let navigationBar = navigationController?.navigationBar {
             navigationBar.backgroundColor = UIColor.black
         }

@@ -18,13 +18,17 @@ class MovieCell: UITableViewCell {
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
+        self.selectionStyle = .none
+        let backgroundView = UIView()
+        backgroundView.backgroundColor = UIColor.darkGray
+        self.selectedBackgroundView = backgroundView
+        
     }
 
     override func setSelected(_ selected: Bool, animated: Bool) {
         super.setSelected(selected, animated: animated)
 
         // Configure the view for the selected state
-        self.selectionStyle = .none
     }
 
 }

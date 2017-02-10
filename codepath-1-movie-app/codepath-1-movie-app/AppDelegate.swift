@@ -34,6 +34,11 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         let tabBarController = UITabBarController()
         tabBarController.viewControllers = [nowPlayingNavigationController, topRatedNavigationController]
+        tabBarController.tabBar.barTintColor = UIColor.red
+        tabBarController.tabBar.unselectedItemTintColor = UIColor.darkGray
+        tabBarController.tabBar.tintColor = UIColor.white
+        tabBarController.tabBarItem.setBadgeTextAttributes([NSForegroundColorAttributeName: UIColor.white], for: .selected)
+        tabBarController.tabBarItem.setBadgeTextAttributes([NSForegroundColorAttributeName: UIColor.gray], for: .normal)
         
         window?.rootViewController = tabBarController
         window?.makeKeyAndVisible()
