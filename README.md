@@ -58,24 +58,26 @@ I definitely was challenged to add the search bar because the code provided thro
     See the License for the specific language governing permissions and
     limitations under the License.
 
+
+
 # Project 2 - Flixter
 
 **Flixter** is a movies app displaying box office and top rental DVDs using [The Movie Database API](http://docs.themoviedb.apiary.io/#).
 
-Time spent: **X** hours spent in total
+Time spent: **3.5** hours spent in total
 
 ## User Stories
 
 The following **required** functionality is completed:
 
-- [ ] User can view movie details by tapping on a cell.
-- [ ] User can select from a tab bar for either **Now Playing** or **Top Rated** movies.
-- [ ] Customize the selection effect of the cell.
+- [X] User can view movie details by tapping on a cell.
+- [X] User can select from a tab bar for either **Now Playing** or **Top Rated** movies.
+- [X] Customize the selection effect of the cell.
 
 The following **optional** features are implemented:
 
 - [ ] For the large poster, load the low resolution image first and then switch to the high resolution image when complete.
-- [ ] Customize the navigation bar.
+- [X] Customize the navigation bar.
 
 The following **additional** features are implemented:
 
@@ -83,8 +85,8 @@ The following **additional** features are implemented:
 
 Please list two areas of the assignment you'd like to **discuss further with your peers** during the next class (examples include better ways to implement something, how to extend your app in certain ways, etc):
 
-1. 
-2. 
+1. I would like to discuss further how I can turn the details page possibly into a modal.
+2. I would like to also learn more as to how others were able to customize the UI of the app.
 
 ## Video Walkthrough 
 
@@ -96,7 +98,7 @@ GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
 ## Notes
 
-Describe any challenges encountered while building the app.
+I had a lot of trouble at first trying to configure the tab bar, especially since the images at first didn't seem to show up at the right size or at all. I also struggled at points where the code presented in the examples no longer worked for Swift 3.0, although after much sleuthing around on the internet I was able to figure things out.
 
 ## License
 
